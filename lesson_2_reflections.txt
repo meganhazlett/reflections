@@ -1,3 +1,27 @@
 1. What happens when you initialize a repository? Why do you need to do it?
 
 Initialize a repo to create a git repo to eventually push 
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is a halfway point between the wd and repo. It bundles files to be committed together. I apparently gives more control. 
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+You can use the staging area to bundle your files together and compare them with versions of git diff
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+You can use branches to keep track of different versions of programs
+
+5. How do the diagrams help you visualize the branch structure?
+
+To know the commits that each person does and in what order when collaborating. 
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is a new branch with two parents. 
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+It's good that git shows what are different so you can make the decision instead of git guessing and making a weird mistake. 
